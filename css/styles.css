@@ -23,6 +23,10 @@ accent2: E38829
         height: 100vh;
     }
 
+    .header__img{
+        display: none;
+    }
+
     img{
         width: 400px;
         height: 400px;
