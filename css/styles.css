@@ -18,6 +18,11 @@ accent2: E38829
         font-family: 'Montserrat', sans-serif;
         font-weight: 700;
     }
+
+    header{
+        height: 100vh;
+    }
+
     img{
         width: 400px;
         height: 400px;
