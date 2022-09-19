@@ -45,3 +45,7 @@ accent2: E38829
         background-color: hsl(33, 89%, 93%);
         font-kerning: 1.5rem;
     }
+    .nav-brand{
+        padding: 0.5% 10% 0;
+        text-transform: uppercase;
+    }
