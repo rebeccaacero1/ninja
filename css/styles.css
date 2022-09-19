@@ -49,3 +49,6 @@ accent2: E38829
         padding: 0.5% 10% 0;
         text-transform: uppercase;
     }
+    .navbar-nav{
+        padding: 5% 8%;
+    }
