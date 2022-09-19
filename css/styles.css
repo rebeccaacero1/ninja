@@ -35,7 +35,13 @@ accent2: E38829
     img{
         width: 400px;
         height: 400px;
+
+    
     }
     .navColor{
-        background-color: #FDEEDC; IM !important;
+        background-color: #FDEEDC !important;
+    }
+    .container-fluid{
+        background-color: hsl(33, 89%, 93%);
+        font-kerning: 1.5rem;
     }
