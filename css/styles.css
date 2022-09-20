@@ -20,6 +20,7 @@ accent2: E38829
     }
 
     header{
+        /* position: relative; */
         height: 100vh;
         background-image: url("../images/miming1.png");
         background-size: cover;
@@ -30,6 +31,14 @@ accent2: E38829
 
     .header__img{
         display: none;
+    }
+
+    .header__heading{
+        position: relative;
+        top: 25%;
+        left: 5%;
+        width: 40%;
+        /* background-color: green; */
     }
 
     img{
@@ -46,9 +55,12 @@ accent2: E38829
         font-kerning: 1.5rem;
     }
     .navbar-brand{
+        font-size: 2rem;
         padding: 0.5% 10% 0;
         text-transform: uppercase;
     }
     .navbar-nav{
         padding: 5% 8%;
+        position: fixed;
     }
+    
