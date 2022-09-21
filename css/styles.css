@@ -51,7 +51,7 @@ accent2: E38829
         background-color: #FDEEDC !important;
     }
     .container-fluid{
-        background-color: hsl(33, 89%, 93%);
+        /* background-color: hsl(33, 89%, 93%); */
         font-kerning: 1.5rem;
     }
     .navbar-brand{
@@ -64,3 +64,14 @@ accent2: E38829
         position: fixed;
     }
     
+
+    /***************************************MEDIA QUERRIES*******************************/
+    /**First breakpoint media max-width: 600px**/
+
+    /*header section*/
+    @media only screen and (max-width: 600px){
+        header{
+            background: none;
+        }
+
+    }
