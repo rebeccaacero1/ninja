@@ -83,4 +83,12 @@ accent2: E38829
             font-size: 1rem;
         }
 
+        .header__heading{
+            position: absolute;
+            width: 75%;
+            top: 33%;
+            left: 15%
+        }
+        /**issue with dropdown link**/
+
     }
