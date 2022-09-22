@@ -20,7 +20,7 @@ accent2: E38829
     }
 
     header{
-        /* position: relative; */
+        position: relative;
         height: 100vh;
         background-image: url("../images/miming1.png");
         background-size: cover;
@@ -89,6 +89,44 @@ accent2: E38829
             top: 33%;
             left: 15%
         }
+
+        .header__img{
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-block;
+            width: 12rem;
+            height: 12rem;
+            padding: 2%;
+            margin: 0;
+            animation: fadeUp 1s ease-in
+        }
+
+        @keyframes fadeUp {
+            0%{
+                opacity: 0;
+                
+            }
+            50%{
+                opacity: 0.5;
+            
+            }
+            100%{
+                opacity: 1;
+                /* top: 75%; */
+            }
+            
+        }
         /**issue with dropdown link**/
+
+        .dropdown{
+            position: relative;
+            z-index: -1;
+        }
+        h1{
+            z-index: 2;
+        }
+        
 
     }
