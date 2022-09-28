@@ -1,7 +1,7 @@
 /*
 Color palette:
 https://colorhunt.co/palette/fdeedcffd8a9f1a661e38b29
-primary: FDEEC
+primary: FDEEDC
 secondary: FFD8A9
 accent1: F1A661
 accent2: E38829
@@ -20,6 +20,7 @@ accent2: E38829
     }
 
     header{
+        position: relative;
         height: 100vh;
         background-image: url("../images/cat-photo.jpg");
         background-size: cover;
@@ -33,7 +34,100 @@ accent2: E38829
         size: 50px;
     }
 
+    .header__heading{
+        position: relative;
+        top: 25%;
+        left: 5%;
+        width: 40%;
+        /* background-color: green; */
+    }
+
     img{
         width: 400px;
         height: 400px;
+
+    
+    }
+    .navColor{
+        background-color: #FDEEDC !important;
+    }
+    .container-fluid{
+        /* background-color: hsl(33, 89%, 93%); */
+        font-kerning: 1.5rem;
+    }
+    .navbar-brand{
+        font-size: 2rem;
+        padding: 0.5% 10% 0;
+        text-transform: uppercase;
+    }
+    .navbar-nav{
+        padding: 5% 8%;
+        position: fixed;
+    }
+    
+
+    /***************************************MEDIA QUERRIES*******************************/
+    /**First breakpoint media max-width: 600px**/
+
+    /*header section*/
+    @media only screen and (max-width: 600px){
+        header{
+            background-image: none;
+        }
+        .navbar-brand{
+            font-size: 1.5rem;
+            padding: 0;
+    
+        }
+        
+        .navbar-nav{
+            font-size: 1rem;
+        }
+
+        .header__heading{
+            position: absolute;
+            width: 75%;
+            top: 33%;
+            left: 15%
+        }
+
+        .header__img{
+            position: absolute;
+            top: 75%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: inline-block;
+            width: 12rem;
+            height: 12rem;
+            padding: 2%;
+            margin: 0;
+            animation: fadeUp 1s ease-in
+        }
+
+        @keyframes fadeUp {
+            0%{
+                opacity: 0;
+                
+            }
+            50%{
+                opacity: 0.5;
+            
+            }
+            100%{
+                opacity: 1;
+                /* top: 75%; */
+            }
+            
+        }
+        /**issue with dropdown link**/
+
+        .dropdown{
+            position: relative;
+            z-index: -1;
+        }
+        h1{
+            z-index: 2;
+        }
+        
+
     }
