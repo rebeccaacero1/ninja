@@ -21,7 +21,7 @@ accent2: E38829
 
     header{
         height: 100vh;
-        background-image: url("../images/miming1.png");
+        background-image: url("../images/cat-photo.jpg");
         background-size: cover;
         background-position: bottom right;
         background-color: #FDEEDC; /*primary color*/
@@ -30,6 +30,7 @@ accent2: E38829
 
     .header__img{
         display: none;
+        size: 50px;
     }
 
     img{
